@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="list_main" type="id"/>
+	<item name="list_candi" type="id"/>
+	<item name="main_screen_text" type="id"/>
+	<item name="scoring_text" type="id"/>
+	<item name="age_seek" type="id"/>
+	<item name="age_seek_text" type="id"/>
+	<item name="assets_seek" type="id"/>
+	<item name="assets_seek_text" type="id"/>
+	<item name="cases_seek" type="id"/>
+	<item name="cases_seek_text" type="id"/>
+	<item name="edu_seek" type="id"/>
+	<item name="edu_seek_text" type="id"/>
+	<item name="scoring_submit" type="id"/>
+	<item name="score_text" type="id"/>
+	<item name="text_item" type="id"/>
+	<item name="desc_table" type="id"/>
+	<item name="image_oldie" type="id"/>
+	<item name="image_money" type="id"/>
+	<item name="image_crime" type="id"/>
+	<item name="image_book" type="id"/>
+	<item name="image_score" type="id"/>
+	<item name="check_inc" type="id"/>
+	<item name="check_bjp" type="id"/>
+	<item name="check_aap" type="id"/>
+	<item name="check_ind" type="id"/>
+</resources>

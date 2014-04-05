@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Informed Choice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_string">Know Your Neta!</string>
+    <string name="score_string">Score </string>
+    <string name="scoring_string"> Scoring Parameters </string>
+    <string name="age_string"> Age Limit: </string>
+    <string name="cases_string"> Max Cases: </string>
+    <string name="assets_string"> Assets Limit: </string>
+    <string name="edu_string"> Min Education: </string>
+    <string name="menu_settings">Settings</string>
+    <string name="bck">Background</string>
+    <string name="inc_string">INC</string>
+    <string name="bjp_string">BJP</string>
+    <string name="aap_string">AAP</string>
+    <string name="ind_string">IND</string>
+
+</resources>
