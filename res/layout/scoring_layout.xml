@@ -138,7 +138,7 @@
 		                android:id="@id/check_inc"
 		                android:layout_width="wrap_content"
 		                android:layout_height="wrap_content"
-		                android:checked="true" />
+		                android:checked="false" />
 				</LinearLayout>
 			    <LinearLayout
 		        	android:layout_width="wrap_content"
@@ -153,7 +153,7 @@
 		                android:id="@id/check_bjp"
 		                android:layout_width="wrap_content"
 		                android:layout_height="wrap_content"
-		                android:checked="true" />
+		                android:checked="false" />
 				</LinearLayout>
 				<LinearLayout
 		        	android:layout_width="wrap_content"
@@ -168,7 +168,7 @@
 		                android:id="@id/check_aap"
 		                android:layout_width="wrap_content"
 		                android:layout_height="wrap_content"
-		                android:checked="true" />
+		                android:checked="false" />
 				</LinearLayout>
 				<LinearLayout
 		        	android:layout_width="wrap_content"
@@ -182,7 +182,8 @@
 		        	<CheckBox
 		                android:id="@id/check_ind"
 		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content" />
+		                android:layout_height="wrap_content"
+		                android:checked="false" />
 				</LinearLayout>
 			    
 	        	

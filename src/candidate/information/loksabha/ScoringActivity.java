@@ -45,6 +45,21 @@ public class ScoringActivity extends Activity {
 		casesText = (TextView) findViewById(R.id.cases_seek_text);
 		eduSeek = (SeekBar) findViewById(R.id.edu_seek);
 		eduText = (TextView) findViewById(R.id.edu_seek_text);
+		age = Scorer.ageLimit;
+		edu = Scorer.eduLimit;
+		cases = Scorer.maxCases;
+		assets = Scorer.assetLimit;
+		ageSeek.setProgress(Scorer.ageLimit-25);
+		eduSeek.setProgress(Scorer.eduLimit);
+		casesSeek.setProgress(Scorer.maxCases);
+		assetsSeek.setProgress(Scorer.assetLimit/100000);
+		String[] tokens = Scorer.partyLimit.split(">");
+		for (String t: tokens) {
+			if (t.equals("INC")) inc_c.setChecked(true);
+			else if (t.equals("BJP")) bjp_c.setChecked(true);
+			else if (t.equals("AAP")) aap_c.setChecked(true);
+			else if (t.equals("IND")) ind_c.setChecked(true);
+		}
 		ageText.setText((ageSeek.getProgress()+25) + " years");
 		casesText.setText(casesSeek.getProgress() + " cases");
 		eduText.setText(Scorer.convertEduNtoString(eduSeek.getProgress()));
